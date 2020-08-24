@@ -1,0 +1,566 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background:none;
+}
+header
+{
+	width: 100%;
+	height: auto;
+	background-color: #003366;
+	position: relative;
+	margin-top: 1%;
+}
+.header-wrapper
+{
+	width: 100%;
+	height: 80px;
+	margin-top: 15px;
+}
+
+.nav-search-wrapper
+{
+	height: 45%;
+	width: 100%;
+	margin: 0 auto;
+}
+.navigation
+{
+	width: 75%;
+	height: 100%;
+	float: left;
+	padding-left: 15%;
+	margin-top: 1%;
+}
+.navigation ul
+{
+	padding: 0;
+}
+.navigation ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 30px;
+	text-align: center;
+	line-height: 50px;
+}
+.navigation ul li a
+{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.navigation ul li a:hover
+{
+	border-bottom: 1px solid white;
+}
+.navigation .fa
+{
+	margin-right: 8px;
+}
+.sub-menu 
+{
+	display: none;
+}
+.navigation ul li:hover .sub-menu
+{
+	display:block;
+	position: absolute;
+	margin-top: 2px;
+	background-color: rgba(197,239,247,1);
+	box-shadow: 0 15px 25px rgba(1,1,1,.9);
+	border-radius: 10%;
+}
+.navigation ul li:hover .sub-menu ul
+{
+	display:block;
+	margin: 5%;
+}
+.navigation ul li:hover .sub-menu ul li
+{
+	width: 90px;
+	padding: -2px;
+	border-bottom: 1px dotted #000;
+	
+	border-radius: 0;
+	text-align: left;
+	margin-left: -1px;
+}
+.navigation ul li:hover .sub-menu ul li:last-child
+{
+	border-bottom: none;
+}
+.navigation ul li:hover .sub-menu ul li a:hover
+{
+	color: #b2ff00;
+}
+/*search box*/
+
+.search-btn
+{
+	width: 25%;
+	height: 100%;
+	float: right;
+
+}
+.search-btn input[type="text"]
+{
+	padding: 10px 30px;
+	margin-left: -180px;
+	background: white;
+	border: 1px solid #660099;
+	box-shadow: 0 15px 25px rgba(1,1,1,.2); 
+	margin-top: 23px;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 5%; 
+	background: rgba(0,0,0,.2);
+}
+.search-btn a
+{
+	color: #b2ff00;
+	font-size: 15px;
+	margin-left: 50px;
+
+}
+.search-btn .fa{
+	color: #000;
+	font-size: 15%;
+	margin-left: 50px;
+}
+@media only screen and (max-width: 980px)
+{
+	header {
+		overflow:hidden;
+	}
+	.header-wrapper
+	{
+		width: 100%;
+	}
+	.nav-search-wrapper
+	{
+		height: 118px;
+		border-bottom: 0;
+	}
+	.search-btn
+	{
+		width: 100%;
+	
+ 		top: 59px;
+ 		position: absolute;
+ 		display: inline-block;
+	}
+	.navigation
+	{
+		width: 100%;
+	}
+	.navigation ul
+	{
+		margin: 10px 0;
+		width: 100%;
+	}
+	.sub-menu ul li
+	{
+		height: 57px;
+		width: 100%;
+	}
+}
+/*image lian*/
+.slide-image
+{
+	height: 500x;
+	width: 100%;
+}
+.main-image
+{
+	height: 100%;
+	width: 100%;
+	background-color:black;
+}
+
+.main-image img
+{
+	height: 15%;
+	width: 25%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 38%;
+}
+
+@media only screen and (max-width: 980px)
+{
+	.slider-image{
+		height: 100%;
+		width: 100%;
+	}
+	.main-image
+	{
+		height: 100%;
+		width: 100%;
+	}
+
+}
+/*..categories section..*/
+.container
+{
+	width: 900px;
+	height: 250px;
+	position: relative;
+	font-size: 20px;
+	margin:50px auto;
+	background-color: #6d4d8c;
+	padding-top: 2px;
+	margin-bottom: 20px;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+}
+.container2
+{
+	width: 900px;
+	height: 250px;
+	position: relative;
+	font-size: 20px;
+	margin:50px auto;
+	background-color: rgba(197,239,247,1);
+	padding-top: 2px;
+	margin-bottom: 20px;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	
+}
+.container3
+{
+	width: 900px;
+	height: 250px;
+	position: relative;
+	font-size: 20px;
+	margin:50px auto;
+	background-color: #6d4d8c;
+	padding-top: 2px;
+	margin-bottom: 20px;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+}
+.container4
+{
+	width: 900px;
+	height: 250px;
+	position: relative;
+	font-size: 20px;
+	margin:50px auto;
+	background-color: rgba(197,239,247,1);
+	padding-top: 2px;
+	margin-bottom: 20px;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+}
+.box1
+{	position: relative;
+	float: left;
+	width: 80%;
+	height: 250px;
+	padding: 15px;
+	margin-left: 20%;
+}
+.container.box1 .content
+{
+	text-align: left;
+	font-size: 20px;
+	position: relative;
+}
+
+.container .box1 span
+{
+	background: rgba(0,0,0,0.5);
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	z-index: 999;
+	bottom: 20%;
+	height: -700%;
+	line-height: 200px;
+	letter-spacing: 5px;
+	width: -100%;
+	margin-left: -25%;
+	color: #fff;
+	padding-top:-10%;
+	font-size: 20px;
+}
+.box1 .content h2
+{
+	color: #fff;
+}
+
+.box2
+{	position: relative;
+	float: left;
+	width: 80%;
+	height: 250px;
+	padding: 15px;
+	margin-left: 20%;
+}
+.container2.box2 .content
+{
+	text-align: left;
+	font-size: 20px;
+	position: relative;
+}
+
+.container2 .box2 span
+{
+	background: rgba(0,0,0,0.5);
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	z-index: 999;
+	bottom: 20%;
+	height: -700%;
+	line-height: 200px;
+	letter-spacing: 5px;
+	width: -100%;
+	margin-left: -25%;
+	color: #fff;
+	padding-top:-10%;
+	font-size: 20px;
+}
+.box2 .content h2
+{
+	color: #6d4d8c;
+}
+.box3
+{	position: relative;
+	float: left;
+	width: 80%;
+	height: 250px;
+	padding: 15px;
+	margin-left: 20%;
+}
+.container3 .box3 .content
+{
+	text-align: left;
+	font-size: 20px;
+	position: relative;
+}
+
+.container3 .box3 span
+{
+	background: rgba(0,0,0,0.5);
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	z-index: 999;
+	bottom: -25%;
+	height: -700%;
+	line-height: 80px;
+	letter-spacing: 1px;
+	width: -100%;
+	margin-left: -25%;
+	color: #fff;
+	padding-top:-10%;
+	font-size: 20px;
+}
+.box3 .content h2
+{
+	color: #fff;
+}
+.box4
+{	position: relative;
+	float: left;
+	width: 80%;
+	height: 250px;
+	padding: 15px;
+	margin-left: 20%;
+}
+.container4.box4 .content
+{
+	text-align: left;
+	font-size: 20px;
+	position: relative;
+}
+
+.container4 .box4 span
+{
+	background: rgba(0,0,0,0.5);
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	z-index: 999;
+	bottom: 20%;
+	height: -700%;
+	line-height: 200px;
+	letter-spacing: 5px;
+	width: -100%;
+	margin-left: -25%;
+	color: #fff;
+	padding-top:-10%;
+	font-size: 20px;
+}
+.box4 .content h2
+{
+	color: #6d4d8c;
+}
+@media only screen and (max-width: 980px)
+{
+.container
+{
+width:100%;
+}
+.box1 .content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-left: 2%;
+}
+.box1 .content span{
+	position: absolute;
+	left: -1%;
+	top: 1%;
+}
+.container2
+{
+width:100%;
+}
+.box2 .content{
+	width: 100%;
+	height: 100%;
+	position: absolute;	
+}
+.box2 .content span{
+	position: absolute;
+}
+.container3
+{
+width:100%;
+}
+.box3 .content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-left: 20%;
+}
+.box3 .content span{
+	position: absolute;
+	left: -1%;
+	top: 1%;
+	bottom: -2%;
+}
+.container4
+{
+width:100%;
+}
+.box4 .content{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+}
+.box4 .content span{
+	position: absolute;
+}
+}
+/*footer section*/
+
+.main-footer
+{
+	background-color: #003366;
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	top: 230%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.first-section
+{
+	width: 32%;
+	height: 100%;
+	float: left;
+}
+.first-section h1
+{
+	text-align: center;
+	color: white;
+
+}
+.first-section  p
+{
+	color: white;
+	text-align:center;
+	padding-left:30px;
+	letter-spacing:1px;
+	padding-top: 5%;
+}
+.second-section
+{
+	width: 32%;
+	height: 100%;
+	float: left;
+}
+.third-section
+{
+	width: 32%;
+	height: 100%;
+	float: left;
+}
+.social-links ul li 
+{
+	list-style: none;
+}
+.social-links ul li a
+{
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	letter-spacing: 1px;
+}
+.second-section h1
+{
+	text-align: center;
+	color: white;
+}
+.second-section ul li
+{
+	list-style: none;
+	padding-top: 1%;
+	padding-left:20px;
+	text-align: center;
+}
+.second-section ul li a
+{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	letter-spacing: 1px;	
+
+}
+@media only screen and (max-width: 980px)
+{
+	.main-footer
+	{
+	position: absolute;
+	}
+	.footer-wrapper{
+		width: 100%;
+		height: auto;
+	}
+	.first-section{
+		width: 35%;
+		height: 50%;
+		position: relative;
+	}
+	.second-section{
+		width: 28%;
+		height: 50%;
+		position: relative;
+	}
+	.third-section{
+		width: 36%;
+		height: 50%;
+		position: relative;
+	}
+}

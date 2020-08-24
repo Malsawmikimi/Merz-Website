@@ -1,0 +1,177 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html, body
+{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+.background
+{
+	width: 100%;
+	height: 100%;
+}
+.background img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.background1
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 0%;
+}
+.background1 img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.nav
+{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+.nav a
+{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition= 300ms;
+}
+
+a.active, .nav a:hover
+{
+	background-color: white;
+	color: black;
+	width: 100%;
+
+}
+.a
+{
+	width: 95%;
+}
+.b
+{
+	width: 80%;
+}
+.c
+{
+	width: 90%;
+}
+.content
+{
+	position: absolute;
+	width: 930px;
+	height: auto;
+	min-height: 500px;
+	background-color: transparent;
+	right: 15%;
+	top: 20%;
+}
+.home{
+	position: absolute;
+	right: 10;
+	text-align: center;
+	color: black;
+
+}
+.home h1{
+	font-size: 100px;
+	padding-right: 80px;
+	border-bottom: 1px solid white;
+}
+.home h3{
+	font-size: 28px;
+	padding: 5px 0;
+}
+
+.home1{
+	position: absolute;
+	width: 700px;
+	height: auto;
+	min-height: 300px;
+	background: rgba(0,0,0,.8);
+	right: 50%;
+	top: 110%;
+	border-radius: 5%;
+}
+.home1 h1{
+	font-size: 50px;
+	border-bottom: 1px solid white;
+	color: #fff;
+}
+.home1 h2{
+	font-size: 28px;
+	padding: 3px 0;
+	color: #fff;
+}
+.home1 h2 .fa{
+	font-size: 28px;
+	color: #fff;
+}
+.home1 h3{
+	color: #fff;
+}
+.background1 .home1 .social-links .fa{
+	font-size: 28px;
+}
+@media only screen and (max-width: 980px)
+{
+	background{
+		height: 50%;
+		width: 50%;
+		position: absolute;
+	}
+	a.active, .nav a:hover
+{
+	
+	width: 100%;
+	position: relative;
+}
+.a
+{
+	width: 45%;
+}
+.b
+{
+	width: 80%;
+}
+.c
+{
+	width: 90%;
+}
+	.nav{
+		width: 50%;
+		height: auto;
+	}
+	.content{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		display: inherit;
+		position: absolute;
+		right: 1%;
+	    top: 55%;
+
+	}
+	
+}
